@@ -3,6 +3,7 @@ Keystroke Dynamics Anomaly Detection
 As cybersecurity attacks increase, the static methods for anomaly detection are no longer enough for protection. We proposed an algorithm for dynamic anomaly detection based on keystroke patterns that are unique for everyone, just like your fingerprint but digitally. Behavioral biometrics also overcome the most important limitation of physiological biometrics systems, as we can collect them without the knowledge of the user, allowing for continuous authentication. The user rhythm for 51 users with the fixed text password (.tie5Roanl) typed in 8 sessions for 50 repetitions per session. The proposed model Random Forrest achieve 94.09 % for F1 for this study. However, we tested the work by our own dataset which was collected and tested by typing the same password to check the user authentication.</br>
 ## Pre-requirement
 - Java version 11.
+- Python version 3.7
 - Logstash version 8.1.2
 - Docker-compse
 ## Setup Enviroment
@@ -66,7 +67,3 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
-
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
